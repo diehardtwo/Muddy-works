@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muddyworks | Bike repair in Hastings</title>
+<meta name="description" content="Bike repairs in Hastings. Basic service &pound;25: general grease up, visual inspection, gear and brake adjustments. Call 07570 579 283.">
+<meta name="theme-color" content="#190f33">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23190f33'/%3E%3Cpath d='M16 14h42l-4 8H12z' fill='%236ae0fb'/%3E%3Cpath d='M10 28h42l-4 8H6z' fill='%23ea4592'/%3E%3Cpath d='M4 42h42l-4 8H0z' fill='%23f4b443'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BikeStore","name":"Muddyworks","description":"Bike repair in Hastings, East Sussex.","areaServed":"Hastings, East Sussex","telephone":"+447570579283","email":"adamjohnsmith@hotmail.com"}</script>
+<style>
+:root{--bg:#190f33;--cyan:#6ae0fb;--pink:#ea4592;--amber:#f4b443;--text:#f4f0ff;--muted:#b9acd9;--font:Roboto,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;--mono:"Roboto Mono","Courier New",monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:18px;line-height:1.6;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{width:min(100% - 2.5rem,56rem);margin-inline:auto}
+.stripes{overflow:hidden}
+.stripes span{display:block;height:clamp(16px,4.4vw,30px);margin-bottom:clamp(12px,3.4vw,22px);transform:skewX(-20deg);width:120%}
+.stripes span:nth-child(1){background:var(--cyan);margin-left:6%}
+.stripes span:nth-child(2){background:var(--pink);margin-left:2%}
+.stripes span:nth-child(3){background:var(--amber);margin-left:-2%}
+.hero{padding:1.25rem 0 3.5rem}
+.topnav{display:flex;gap:1.5rem;font-weight:500;margin-top:1rem}
+.topnav a{text-decoration:none;color:var(--muted);padding-bottom:.2rem}
+.topnav a:hover{color:var(--text)}
+.topnav a[aria-current]{color:var(--text);border-bottom:3px solid var(--amber)}
+.mark{margin-top:1.5rem;font-style:italic;font-weight:900;font-size:clamp(3rem,15.5vw,8.5rem);line-height:1;letter-spacing:-.025em;text-shadow:.055em .055em 0 var(--pink);margin-top:2.5rem}
+.tag{font-family:var(--mono);letter-spacing:.4em;color:var(--amber);font-size:clamp(.7rem,2.8vw,1rem);border-top:4px solid var(--cyan);padding-top:1rem;margin-top:1.75rem;max-width:36rem}
+h1{font-weight:500;font-size:clamp(1.6rem,5.5vw,2.4rem);line-height:1.2;margin:2.5rem 0 .75rem}
+.lead{color:var(--muted);max-width:40ch;margin-bottom:2rem}
+.cta{display:flex;flex-wrap:wrap;gap:1rem}
+.btn{display:inline-block;font-weight:500;text-decoration:none;color:var(--bg);padding:.9rem 1.6rem;transform:skewX(-14deg)}
+.btn span{display:inline-block;transform:skewX(14deg)}
+.btn.call{background:var(--amber)}
+.btn.mail{background:var(--cyan)}
+.btn:hover{background:var(--pink)}
+h2{font-style:italic;font-weight:900;font-size:clamp(2rem,7vw,3.2rem);line-height:1.05;text-shadow:.06em .06em 0 var(--pink);margin-bottom:.5rem}
+.service{padding:3.5rem 0}
+.service .sub{color:var(--muted);margin-bottom:2rem;max-width:40ch}
+.bars{list-style:none;display:grid;gap:1rem;max-width:34rem;padding-left:.5rem}
+.bars li{transform:skewX(-14deg);padding:1rem 1.5rem;color:var(--bg);font-weight:500;font-size:1.15rem}
+.bars li span{display:inline-block;transform:skewX(14deg)}
+.bars li:nth-child(1){background:var(--cyan);margin-left:1.5rem}
+.bars li:nth-child(2){background:var(--pink);margin-left:.75rem}
+.bars li:nth-child(3){background:var(--amber)}
+.bars li:nth-child(4){background:var(--cyan);margin-left:-.75rem}
+.price{margin-top:2.25rem;display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem 1.25rem}
+.price strong{font-style:italic;font-weight:900;font-size:clamp(2.8rem,11vw,4.2rem);line-height:1;text-shadow:.06em .06em 0 var(--pink)}
+.price span{font-family:var(--mono);color:var(--amber);letter-spacing:.2em;font-size:.85rem}
+.soon{margin-top:2.5rem;font-family:var(--mono);color:var(--amber);letter-spacing:.2em;font-size:.9rem}
+.contact{padding:3.5rem 0 3rem}
+.contact p{margin:.25rem 0}
+.contact a.big{display:inline-block;font-style:italic;font-weight:900;font-size:clamp(1.5rem,6.2vw,2.4rem);text-decoration:none;word-break:break-word}
+.contact a.big:hover{color:var(--cyan)}
+.small{color:var(--muted);font-size:.9rem;margin-top:2rem}
+.markwrap{position:relative;margin-top:2.5rem}
+.markwrap .mark{margin-top:0;position:relative;z-index:1}
+.jump{position:absolute;left:-9%;top:52%;transform:translateY(-56%);width:118%;height:auto;z-index:0;pointer-events:none;display:block}
+@media (prefers-reduced-motion:no-preference){.air{animation:air 3s ease-in-out infinite alternate}}
+@keyframes air{to{transform:translateY(-7px)}}
+</style>
+</head>
+<body>
+<div class="stripes" aria-hidden="true"><span></span><span></span><span></span></div>
+
+<header class="hero">
+  <div class="wrap">
+    <nav class="topnav" aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="about.html">About</a><a href="blog.html">Blog</a></nav>
+    <div class="markwrap"><svg class="jump" viewBox="0 0 380 140" aria-hidden="true"><path d="M30 118 L150 84 L150 118Z" fill="#5a3a1e"/><path d="M30 118 L150 84" stroke="#7a5230" stroke-width="4" stroke-linecap="round" fill="none"/><g transform="translate(262,48) rotate(-20) scale(.85) translate(-103,-70)"><g class="air" fill="none" stroke="#6b4426" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="40" cy="80" r="27" stroke-width="7"/><circle cx="170" cy="80" r="27" stroke-width="7"/><path d="M40 80 L80 44 L92 82 L40 80 M80 44 L146 40 L92 82 M148 42 L170 80 M146 40 L141 29 L156 27 M70 40 L90 40"/><circle cx="92" cy="82" r="5"/></g></g><circle cx="168" cy="100" r="3" fill="#5a3a1e"/><circle cx="182" cy="90" r="2" fill="#5a3a1e"/><circle cx="176" cy="110" r="2.5" fill="#7a5230"/></svg><p class="mark">muddyworks</p></div>
+    <p class="tag">BIKE WORKSHOP</p>
+    <h1>Bike repairs in Hastings</h1>
+    <p class="lead">Your bike, sorted. Ring or email and we'll get it booked in.</p>
+    <div class="cta">
+      <a class="btn call" href="tel:+447570579283"><span>Call 07570 579 283</span></a>
+      <a class="btn mail" href="mailto:adamjohnsmith@hotmail.com"><span>Send an email</span></a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="service">
+  <div class="wrap">
+    <h2>The basic service</h2>
+    <p class="sub">Everything your bike needs to ride smoothly again.</p>
+    <ul class="bars">
+      <li><span>General grease up</span></li>
+      <li><span>Visual inspection</span></li>
+      <li><span>Gear adjustment</span></li>
+      <li><span>Brake adjustment</span></li>
+    </ul>
+    <p class="price"><strong>&pound;25</strong><span>INTRODUCTORY PRICE</span></p>
+    <p class="soon">BIKE HIRE COMING SOON</p>
+  </div>
+</section>
+</main>
+
+<div class="stripes" aria-hidden="true"><span></span><span></span><span></span></div>
+
+<footer class="contact">
+  <div class="wrap">
+    <h2>Get in touch</h2>
+    <p><a class="big" href="tel:+447570579283">07570 579 283</a></p>
+    <p><a class="big" href="mailto:adamjohnsmith@hotmail.com">adamjohnsmith@hotmail.com</a></p>
+    <p class="small">Hastings, East Sussex &copy; Muddyworks</p>
+  </div>
+</footer>
+</body>
+</html>
