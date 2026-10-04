@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://muddyworks.co.uk/sitemap.xml
